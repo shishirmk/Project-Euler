@@ -6,32 +6,12 @@ def is_prime(num)
 	return true
 end
 
-def next_prime_number(m)
-	m = m + 1
-	while !is_prime(m)
-		m = m + 1
+real_comp = 600851475143
+
+(2..real_comp).each do |i|
+	quotient = real_comp/i
+	if real_comp%i == 0 and is_prime(quotient)
+		puts quotient
+		break
 	end
-	return m
 end
-
-real_comp =  600851475143 #13195
-comp = real_comp
-prime = next_prime_number(1)
-max = 0
-
-i = 2
-while real_comp%i != 0
- i = i + 1
-end
-
-last_check = (real_comp/i-1).round()
-
-while prime < last_check
-	while comp%prime == 0
-		max = prime
-		comp = comp/prime
-	end
-prime = next_prime_number(prime)
-end
-
-puts max
