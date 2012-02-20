@@ -1,3 +1,5 @@
+#Problem at http://projecteuler.net/problem=12
+
 def sum_upto(n)
 	return (n*(n+1))/2 if n!= 1
 	return 1

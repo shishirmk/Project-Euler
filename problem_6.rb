@@ -1,3 +1,5 @@
+#Problem at http://projecteuler.net/problem=6
+
 #Square_of_sum - sum_of_squares
 
 def sum_of_n(n)

@@ -1,3 +1,4 @@
+#Problem at http://projecteuler.net/problem=1
 sum = 0
 (1..999).each  do |num|
 	sum += num if num%3 == 0 or num%5 == 0

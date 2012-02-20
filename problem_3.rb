@@ -1,3 +1,5 @@
+#Problem at http://projecteuler.net/problem=3
+
 def is_prime(num)
 	last = (num/2).round()
 	(2..last).each do |i|

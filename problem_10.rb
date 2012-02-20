@@ -1,3 +1,4 @@
+#Problem at http://projecteuler.net/problem=10
 require 'set'
 
 all_numbers = Set.new

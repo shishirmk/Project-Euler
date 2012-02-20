@@ -1,3 +1,5 @@
+#Problem at http://projecteuler.net/problem=9
+
 squares = Hash.new
 max = 500
 (1..max).each do |i|

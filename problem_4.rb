@@ -1,3 +1,5 @@
+#Problem at http://projecteuler.net/problem=4
+
 def is_palindrome(num)
 	real_num = num
 	pal_num = 0

@@ -1,3 +1,4 @@
+#Problem at http://projecteuler.net/problem=2
 n1 = 1
 n2 = 2
 fib_array = Array.new
